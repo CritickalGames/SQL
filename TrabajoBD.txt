@@ -52,10 +52,10 @@ Se pide,
 	Bona 2) Efectuar el Esquema relacional (pasaje a tablas) del MER efectuado en el punto 1.
 	Bona 3) Escribir las sentencias SQL necesarias para Crear las tablas, claves, �ndices, vistas,
 		triggers... que se necesiten para representar la realidad planteada anteriormente.
-	4) Utilizando �lgebra relacional, listar los jugadores y nombre de la selecci�n en la que juegan.
-	5) Utilizando SQL obtener la cantidad de goles a favor, goles en contra y diferencia de goles por equipo.
-	6) Utilizando SQL agregar la selecci�n de Uruguay a la tabla de equipos.
-	7) Utilizando SQL eliminar a Argentina y Brasil de la tabla de equipos.
+	Bona 4) Utilizando �lgebra relacional, listar los jugadores y nombre de la selecci�n en la que juegan.
+	Bona 5) Utilizando SQL obtener la cantidad de goles a favor, goles en contra y diferencia de goles por equipo.
+	Bona 6) Utilizando SQL agregar la selecci�n de Uruguay a la tabla de equipos.
+	Bona 7) Utilizando SQL eliminar a Argentina y Brasil de la tabla de equipos.
 	8) Utilizando SQL agregarle un gol a favor a Uruguay en todos los partidos que haya jugado.
 
 

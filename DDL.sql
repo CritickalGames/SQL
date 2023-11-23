@@ -1,3 +1,4 @@
+create database braiamMarcez
 use braiamMarcez;
 
 /*GR1*/
@@ -62,19 +63,19 @@ create table Matxoj(
     Id int not null AUTO_INCREMENT,
     Gastiganto int not null,
     Vizitanto int not null,
+    CeloGastiganto int not null,
+    CeloVizitanto int not null,
     Fecha date not null,
     Hora time not null,
     Duracion time not null,
 
     FlavaGastiganto int not null,
     RuwaGastiganto int not null,
-    CeloGastiganto int not null,
     PunktoGastiganto int not null,
     PilkoPosedoGastiganto time not null,
     
     FlavaVizitanto int not null,
     RuwaVizitanto int not null,
-    CeloVizitanto int not null,
     PunktoVizitanto int not null,
     PilkoPosedoVizitanto time not null,
 
