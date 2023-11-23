@@ -1,0 +1,72 @@
+
+Prueba escrita de Base de Datos.
+
+Uruguay est� decidido a clasificar para un mundial de f�tbol, y luego de un pormenorizado
+an�lisis se decidi� organizar el mundial 2030
+
+
+Entre otras cosas va a ser necesario un sistema inform�tico para registrar resultados,
+sedes, partidos, jueces, jugadores, equipos, etc. del campeonato.
+
+Con esos datos almacenados, tenemos que poder sacar un Fixture (listado de partidos por jugar)
+
+El fixture lo vamos a poder confexionar una vez que sepamos todos los equipos que 
+clasificaron, pues necesitamos saber los equipos que se van a enfrentar, en que Sede y en que fecha y hora.
+
+
+Cerca de la fecha del mundial se efect�a el sorteo de los �rbitros que tendr� cada partido, 
+teniendo en cuenta para el sorteo que un juez no pueda arbitrar en la serie de su 
+selecci�n y menos en un partido de la misma.
+Cada partido va a tener un juez, primer juez de l�nea, segundo juez de l�nea y cuarto �rbitro.
+Un equipo no puede jugar con si mismo.
+
+Tambi�n, cerca de la fecha del evento cada selecci�n debe presentar la "lista de buena f�"
+(lista de 22 jugadores que podr�n estar entre los 11 titulares de ese equipo en cada partido)
+Un jugador no va a poder jugar en mas de un equipo.
+
+
+A mas tardar una hora antes de cada partido, el director t�cnico de cada una de las dos selecciones, 
+deber� entregar al cuarto �rbitro la lista de los 11 jugadores titulares para ese partido.
+
+
+Una vez jugado cada partido se deber�n cargar las estad�sticas del mismo. Goles del locatario, goles del visitante
+cantidad de rojas y amarillas para cada lado, porcentaje de posesi�n del bal�n, minutos jugados, etc.
+
+Se deber� poder consultar en cualquier momento la tabla de posiciones, la cual deber� estar ordenada por puntos
+en forma descendente.
+
+Por partido ganado se suman 3 puntos por partido empatado 1 punto y partido perdido 0 puntos.
+
+A igualdad de puntos se ordena en forma descendente por diferencia de goles a favor menos goles en contra.
+
+En caso de que la igualdad persista, ordenar por goles a favor en forma descendente.
+
+En caso de que la igualdad persista, ordenar por los puntos, goles a favor y goles en contra obtenidos entre
+los equipos que est�n igualados.
+
+En caso de persistencia de la igualdad, si el caso lo ameritase, se efectuar� un sorteo.
+
+
+Se pide,
+	Bona 1) Efectuar el Modelo Entidad Relaci�n correspondiente a esta realidad.
+	Bona 2) Efectuar el Esquema relacional (pasaje a tablas) del MER efectuado en el punto 1.
+	Bona 3) Escribir las sentencias SQL necesarias para Crear las tablas, claves, �ndices, vistas,
+		triggers... que se necesiten para representar la realidad planteada anteriormente.
+	4) Utilizando �lgebra relacional, listar los jugadores y nombre de la selecci�n en la que juegan.
+	5) Utilizando SQL obtener la cantidad de goles a favor, goles en contra y diferencia de goles por equipo.
+	6) Utilizando SQL agregar la selecci�n de Uruguay a la tabla de equipos.
+	7) Utilizando SQL eliminar a Argentina y Brasil de la tabla de equipos.
+	8) Utilizando SQL agregarle un gol a favor a Uruguay en todos los partidos que haya jugado.
+
+
+
+
+
+
+
+
+
+
+
+
+
